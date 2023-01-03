@@ -1,0 +1,7 @@
+.bg-navbar {
+  background-color: darkblue; 
+}
+.bg-list {
+  --bs-list-group-bg: transparent; 
+  --bs-border-color: transparent; 
+}
