@@ -5,3 +5,53 @@
   --bs-list-group-bg: transparent; 
   --bs-border-color: transparent; 
 }
+.fa-brands.fa-linkedin.fa-2x:hover{
+  color: black  !important;
+}
+.fa-brands.fa-github.fa-2x:hover{
+  color: black  !important;
+}
+.fa-solid.fa-user-lock.fa-2x:hover{
+  color: black  !important;
+}
+.logo:hover{
+  color: black  !important;
+}
+section.banner {
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.9)),url(assets/img/rj45.png);
+  height: 87vh;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-repeat: no-repeat;
+}
+h3.intro{
+  padding-top: 12%;
+  color: white;
+  font-size: 7vh
+}
+h1.intro{
+  color: white;
+  font-size: 10vh;
+}
+h2.intro{
+  color: white;
+  font-size: 8vh;
+}
+.col{
+  padding-top: 5%;
+  color: black;
+}
+.col-3{
+  padding-top: 0%;
+  font-size: 8vh;
+}
+.footer{
+  background-color: black;
+}
+.footer-txt{
+  color: white;
+}

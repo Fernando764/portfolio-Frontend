@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/Favicon INTI.png">
     <!--CSS de Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!--Fontawesome-->
@@ -16,21 +17,66 @@
 
     <nav class="navbar navbar-expand-lg bg-navbar">
         <div class="container-fluid">
-            <img src="assets/img/APLogo-20-20.png" alt="Logo AP" width="150 img-fluid" >
+          <a title="Logo" href="https://argentinaprograma.inti.gob.ar/" target="_blank"><img src="assets/img/APLogo-20-20.png" alt="Logo AP" width="150 img-fluid"></a>
 
             <ul class="list-group list-group-horizontal bg-list">
-              <li class="list-group-item"><a href="https://linkedin.com/in/fernando-cardarella/" target="_blank"><i class="fa-brands fa-linkedin fa-2x text-white" ></i></a></li>
-              <li class="list-group-item"><i class="fa-brands fa-github fa-2x text-white"></i></li>
-              <li class="list-group-item">
+              <li class="list-group-item img-fluid"><a href="https://linkedin.com/in/fernando-cardarella/" target="_blank"><i class="fa-brands fa-linkedin fa-2x text-white" ></i></a></li>
+              <li class="list-group-item img-fluid"><a href="https://github.com/Fernando764/" target="_blank"><i class="fa-brands fa-github fa-2x text-white"></i></a></li>
+              <li class="list-group-item img-fluid">
               <!-- Botón que abre la ventana de login (Button trigger modal) -->
-                <i data-bs-toggle="modal" data-bs-target="#loginModal" class="<i class= fa-solid fa-user-lock fa-2x text-white"></i>
+                <i data-bs-toggle="modal" data-bs-target="#loginModal" class="class= fa-solid fa-user-lock fa-2x text-white"></i>
             </ul>
 
         </div>
       </nav>
-      <!--Seccion Banner de fondo-->
+<!--Banner-->
+<section class="banner">
+  <div class="content">
+    <h3 class="text-center intro">Hola, soy</h3>
+    <h1 class="text-center intro">Fernando Cardarella</h1>
+    <h2 class="text-center intro">Full Stack Developer Jr.</h2>
+  </div>
+</section>
+<!--Presentación-->
+<h2 class="subtitulo text-center pt-5">Acerca de mí</h2>
+<div class="container text-center">
+  <div class="row">
+    <div class="col-3">
+      <img src="assets/img/Perfil.jpg" alt="Perfil" class="rounded-circle img-fluid">
+    </div>
+    <div class="col">
+      <h4>Hola, soy Fernando Cardarella, Full Stack Developer Jr., estudiante de Ingeniería en Electrónica, técnico secundario en Electrónica, con un nivel de inglés avanzado B2-CEFR. <br>Actualmente curso la segunda etapa del Curso "Argentina Programa"</h4>
+    </div>
+  </div>
+</div>
+<!--Educación-->
 <section>
-  <img src="assets/img/Banner.png" alt="Jupiter and Venus NASA" class="w-100 img-fluid" >
+  <h2 class="subtitulo text-center pt-5">Educación</h2>
+  <div class="container text-center">
+    <div class="row pt-3">
+      <div class="col-3">
+      </div>
+      <div class="col-2">
+        <img src="assets/img/UTN logo.png" alt="Perfil" class="img-fluid pt-5">
+      </div>
+      <div class="col pt-4">
+        <h4>Universidad Tecnológica Nacional</h4>
+        <h5>Ingeniería en Electrónica</h5>
+        <h5>2020 - Actualidad</h5>
+      </div>
+    </div>
+    <div class="row pt-5">
+      <div class="col-3">
+      </div>
+      <div class="col-2">
+        <i class="fa-solid fa-school-flag img-fluid pt-4 fa-4x"></i>
+      </div>
+      <div class="col pt-4">
+        <h4>Escuela 4-055 Pbro. C. Spagnolo</h4>
+        <h5>Técnico secundario en Electrónica</h5>
+        <h5>2014 - 2019</h5>
+      </div>
+    </div>
 </section>
 <!-- Modal -->
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -60,8 +106,11 @@
     </div>
   </div>
 </div>
-
-    <!--JS de Bootstrap-->
+<footer>
+  <div class="footer">
+        <h6 class="text-center footer-txt pb-4 pt-4">© Copyright - Fernando Cardarella - 2023</h6>
+</footer>
+<!--JS de Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
