@@ -1,0 +1,19 @@
+.bg-navbar {
+    background-color: darkblue; 
+  }
+.bg-list {
+    --bs-list-group-bg: transparent; 
+    --bs-border-color: transparent; 
+  }
+  .fa-brands.fa-linkedin.fa-2x:hover{
+    color: black  !important;
+  }
+  .fa-brands.fa-github.fa-2x:hover{
+    color: black  !important;
+  }
+  .fa-solid.fa-user-lock.fa-2x:hover{
+    color: black  !important;
+  }
+  .logo:hover{
+    color: black  !important;
+  }

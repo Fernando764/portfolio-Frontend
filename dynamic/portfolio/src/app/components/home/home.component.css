@@ -1,0 +1,68 @@
+/*INDEX*/
+section.banner {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.9)),url(../../../assets/img/rj45.png);
+    height: 87vh;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  h1.intro{
+    padding-top: 15%;
+    font-size: 10vh;
+  }
+  h2.intro{
+    font-size: 8vh;
+  }
+  .col{
+    padding-top: 5%;
+  }
+  .col-3{
+    padding-top: 0%;
+    font-size: 8vh;
+  }
+  .footer{
+    background-color: black;
+  }
+  .footer-txt{
+    color: white;
+  }
+  .texto{
+    color: black;
+  }
+  
+  .logos{
+    filter: invert();
+  }
+  .progress-bar.progress-bar-striped.Windows{
+    background-color: blue;
+  }
+  .progress-bar.progress-bar-striped.Office{
+    background-color: orange;
+  }
+  .progress-bar.progress-bar-striped.HTML{
+    background-color: greenyellow;
+  }
+  .progress-bar.progress-bar-striped.CSS{
+    background-color: cornflowerblue;
+  }
+  .col-center{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cardexp{
+    transition: 300ms;
+    background-color: rgb(219, 219, 219);
+  }
+  .cardexp:hover{
+    transition: 300ms;
+    background-color: rgba(126, 178, 255, 0.555);
+  }
+  .card-text{
+    color: black;
+  }

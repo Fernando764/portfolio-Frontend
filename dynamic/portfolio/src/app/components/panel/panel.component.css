@@ -1,0 +1,15 @@
+.icono{
+    opacity: 0.5;
+  }
+  .icono:hover{
+    opacity: 1;
+  }
+  .edit{
+    transform: translateY(8rem);
+    translate: -2.7rem;
+  }
+  .pentit{
+  
+    transform: translateY(2rem);
+  }
+  
