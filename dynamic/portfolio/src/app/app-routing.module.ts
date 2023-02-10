@@ -7,12 +7,14 @@ import { PanelComponent } from './components/panel/panel.component';
 
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'registro', component: RegistroComponent },
   { path: 'dash111', component: PanelComponent },
   { path: '**', component: HomeComponent }
 ];
+
+export const app_routing = RouterModule.forRoot(routes, { useHash: true });
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
