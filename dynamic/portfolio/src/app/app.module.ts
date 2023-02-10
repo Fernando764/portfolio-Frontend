@@ -14,6 +14,7 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { PanelComponent } from './components/panel/panel.component';
+import { Notfound404Component } from './components/notfound404/notfound404.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PanelComponent } from './components/panel/panel.component';
     HomeComponent,
     LoginComponent,
     RegistroComponent,
-    PanelComponent
+    PanelComponent,
+    Notfound404Component
   ],
   imports: [
     BrowserModule,
